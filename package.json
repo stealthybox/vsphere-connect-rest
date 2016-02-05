@@ -1,0 +1,31 @@
+{
+  "name": "vsphere-connect-rest",
+  "version": "0.0.1",
+  "description": "vSphere Rest Interface",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhoriuchi/vsphere-connect-rest.git"
+  },
+  "keywords": [
+    "vsphere"
+  ],
+  "author": "Branden Horiuchi <bhoriuchi@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/bhoriuchi/vsphere-connect-rest",
+  "bugs": {
+    "url": "https://github.com/bhoriuchi/vsphere-connect-rest/issues"
+  },
+  "dependencies": {
+    "vsphere-connect": "git+https://github.com/bhoriuchi/vsphere-connect.git",
+    "lodash": "^4.2.1",
+    "restify": "^4.0.3",
+    "bluebird": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "directories": {
+    "example": "example"
+  }
+}
