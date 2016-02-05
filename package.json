@@ -2,7 +2,6 @@
   "name": "vsphere-connect-rest",
   "version": "0.0.1",
   "description": "vSphere Rest Interface",
-  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhoriuchi/vsphere-connect-rest.git"
