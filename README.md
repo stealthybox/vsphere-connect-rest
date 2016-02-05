@@ -2,13 +2,7 @@
 
 # vsphere-connect-rest
 
-
-
-## Usage
-
-
-
-## Developing
+---
 
 
 

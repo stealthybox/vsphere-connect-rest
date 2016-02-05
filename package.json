@@ -2,6 +2,7 @@
   "name": "vsphere-connect-rest",
   "version": "0.0.1",
   "description": "vSphere Rest Interface",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhoriuchi/vsphere-connect-rest.git"
@@ -15,10 +16,13 @@
   "bugs": {
     "url": "https://github.com/bhoriuchi/vsphere-connect-rest/issues"
   },
+  "devDependencies": {
+      "restify": "^4.0.3",
+      "express": "^4.13.4"
+  },
   "dependencies": {
     "vsphere-connect": "git+https://github.com/bhoriuchi/vsphere-connect.git",
     "lodash": "^4.2.1",
-    "restify": "^4.0.3",
     "bluebird": "^3.2.1"
   },
   "scripts": {
