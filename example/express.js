@@ -15,6 +15,7 @@ vsphere.setCredential('administrator@vsphere.local', 'password');
 
 // create routes
 server.get('/:vsphere/:type', vsphere.get);
+server.get('/:vsphere/:type/:id', vsphere.get);
 server.delete('/:vsphere/:type/:id', vsphere.del);
 
 

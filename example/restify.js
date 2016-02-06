@@ -15,6 +15,7 @@ var vsphere = require('../lib');
 
 // create routes
 server.get('/:vsphere/:type', vsphere.get);
+server.get('/:vsphere/:type/:id', vsphere.get);
 server.del('/:vsphere/:type/:id', vsphere.del);
 
 
