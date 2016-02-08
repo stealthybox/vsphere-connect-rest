@@ -1,7 +1,7 @@
 {
   "name": "vsphere-connect-rest",
   "version": "0.0.1",
-  "description": "vSphere Rest Interface",
+  "description": "Portable vSphere Rest Interface",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   "dependencies": {
     "vsphere-connect": "git+https://github.com/bhoriuchi/vsphere-connect.git",
     "lodash": "^4.2.1",
-    "bluebird": "^3.2.1"
+    "bluebird": "^3.2.1",
+    "pluralize": "^1.2.1"
   },
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"

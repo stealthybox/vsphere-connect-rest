@@ -12,12 +12,16 @@ server.use(restify.queryParser());
 
 var vsphere = require('../lib');
 
+vsphere.ignoreSSL = true;
 
-// create routes
+/* manually create routes
 server.get('/:viserver/:type', vsphere.get);
 server.get('/:viserver/:type/:id', vsphere.get);
 server.del('/:viserver/:type/:id', vsphere.del);
+*/
 
+// or add all available routes
+vsphere.addRoutes(server);
 
 // start the server
 server.listen(8080, function() {

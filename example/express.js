@@ -23,6 +23,7 @@ var newParams = {
 };
 
 vsphere.setParams(newParams);
+vsphere.ignoreSSL = true;
 
 // create routes
 server.get('/:myViserver/:myType', vsphere.get);
