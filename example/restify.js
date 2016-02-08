@@ -13,6 +13,7 @@ server.use(restify.queryParser());
 var vsphere = require('../lib');
 
 vsphere.ignoreSSL = true;
+vsphere.exclusive = true;
 
 /* manually create routes
 server.get('/:viserver/:type', vsphere.get);

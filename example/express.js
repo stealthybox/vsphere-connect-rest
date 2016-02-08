@@ -12,7 +12,7 @@ var server     = express();
 var vsphere = require('../lib');
 
 // optionally set a credential to bypass basic auth
-vsphere.setCredential('administrator@vsphere.local', 'password');
+//vsphere.setCredential('administrator@vsphere.local', 'password');
 
 // optionally override the default request params. default values are the key names
 var newParams = {
