@@ -21,7 +21,7 @@
       "express": "^4.13.4"
   },
   "dependencies": {
-    "vsphere-connect": "git+https://github.com/bhoriuchi/vsphere-connect.git",
+    "vsphere-connect": "git+https://github.com/stealthybox/vsphere-connect.git#v0.0.1",
     "lodash": "^4.2.1",
     "bluebird": "^3.2.1",
     "pluralize": "^1.2.1"
